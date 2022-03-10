@@ -1,0 +1,44 @@
+.MPB {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.HOME {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 1200px
+}
+.ABOUTME {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 1300px
+    
+}
+.ARCHIEVE {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 1440px
+}
+.CONTACT {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 1570px
+}
+.icon{
+    margin-top: 23px;
+    position: absolute;
+    margin-left: 1700px
+}
+.icon1{
+    margin-top: 23px;
+    position: absolute;
+    margin-left: 1770px
+}
+.Welcome {
+    position: absolute;
+}
+.background img {
+    display: block;
+    width: auto;
+    height: auto;
+}
