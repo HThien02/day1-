@@ -1,0 +1,62 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.background {
+    width: 1920px;
+    height: 900 px;
+    background-image: linear-gradient(to right bottom, rgb(81, 206, 255) 20%, rgb(253, 45, 142));
+}
+
+@font-face {
+    font-family: The Untold Story;
+    src: url(Font/TheUntoldStory.otf);
+}
+
+@font-face {
+    font-family: AnyConvcomLeagueSpartan;
+    src: url(Font/AnyConv.com__LeagueSpartan-VariableFont_wght.otf);
+}
+
+.font {
+    font-family: The Untold Story;
+}
+
+.font1 {
+    font-family: AnyConvcomLeagueSpartan;
+}
+
+.text .font {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 200px;
+    font-size: 100px;
+}
+.text h3 {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 400px;
+    font-size: 40px;
+}
+.input {
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 600px;
+}
+.text h2 {
+    position: absolute;
+    font-weight: bolder;
+    margin-left: 880px;
+    margin-top: 470px;
+}
+.text .icon {
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 530px;
+}
+.summit {
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 950px;
+}

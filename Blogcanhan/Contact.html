@@ -9,43 +9,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Example</title>
 </head>
-<style>
-    /* For mobile phones: */
-    body {
-        background-color: black;
-    }
 
-    .invite-friend {
-        margin-top: 25px;
-    }
 
-    .tokyo-paris {
-        margin-top: 25px;
-    }
-
-    @media only screen and (min-width: 768px) {
-
-        /* For tablets: */
-        body {
-            background-color: rgb(255, 255, 255);
-        }
-
-        .tokyo-paris {
-            margin-top: 0px;
-        }
-
-    }
-
-    @media only screen and (min-width: 937px) {
-
-        /* For desktop: */
-        body {
-            background-color: rgb(255, 255, 255);
-        }
-
-        .invite-friend {
-            max-height: 297px;
-            margin-top: 0px;
-        }
-    }
+<body>
+    <div class="text">
+        <h1 class="font"> HEY YOU! </h1>
+        <h3 class="font1"> Do you have anything to share with me?</h3>
+        <h2 class="font1">Please write below</h2>
+        <h1 class="icon"><i class="bi bi-arrow-down-circle-fill"></i></h1>
+        <div class="input">
+            <textarea name="info" rows="5" cols="30">Type here!</textarea>
+        </div>
+        <div class="summit">
+            <input type="button" id="btn" value="Summit" />
+            <script language="javascript">
+                var button = document.getElementById("btn");
+                button.onclick = function () {
+                    alert("Yep, we will connect with you soon!!! ;)");
+                }
+            </script>
+        </div>
+    </div>
+    <div class="background">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
