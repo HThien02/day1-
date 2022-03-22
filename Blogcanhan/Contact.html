@@ -16,22 +16,27 @@
 
 
 <body>
-    <div class="text">
-        <h1 class="font"> HEY YOU! </h1>
-        <h3 class="font1"> Do you have anything to share with me?</h3>
-        <h2 class="font1">Please write below</h2>
-        <h1 class="icon"><i class="bi bi-arrow-down-circle-fill"></i></h1>
-        <div class="input">
-            <textarea name="info" rows="5" cols="30">Type here!</textarea>
-        </div>
-        <div class="summit">
-            <input type="button" id="btn" value="Summit" />
-            <script language="javascript">
-                var button = document.getElementById("btn");
-                button.onclick = function () {
-                    alert("Yep, we will connect with you soon!!! ;)");
-                }
-            </script>
+    <div class="container">
+        <div class="row">
+            <div class="text">
+                <h1 class="col-12 font"> HEY YOU! </h1>
+                <h3 class="font1"> Do you have anything to share with me?</h3>
+                <h2 class="font1">Please write below</h2>
+                <h1 class="icon"><i class="bi bi-arrow-down-circle-fill"></i></h1>
+                <div class="input">
+                    <textarea name="info" rows="5" cols="30">Type here!</textarea>
+                </div>
+                <div class="summit">
+                    <input type="email" id="email">
+                    <input type="button" id="btn" value="Summit" />
+                    <script language="javascript">
+                        var button = document.getElementById("btn");
+                        button.onclick = function () {
+                            alert("Yep, we will connect with you soon!!! ;)");
+                        }
+                    </script>
+                </div>
+            </div>
         </div>
     </div>
     <div class="background">

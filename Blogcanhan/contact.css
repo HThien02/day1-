@@ -4,8 +4,8 @@ img {
 }
 
 .background {
-    width: 1920px;
-    height: 900 px;
+    width: auto;
+    height: auto;
     background-image: linear-gradient(to right bottom, rgb(81, 206, 255) 20%, rgb(253, 45, 142));
 }
 
@@ -59,4 +59,10 @@ img {
     position: absolute;
     margin-top: 750px;
     margin-left: 950px;
+}
+.email {
+    margin-right: 1000px;
+}
+.btn {
+    margin-right: 1000px;
 }
