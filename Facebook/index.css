@@ -1,0 +1,50 @@
+img {
+    width: 100%;
+}
+body {
+    color: aliceblue;
+}
+.header .header_navbar-list {
+    display: inline-block;
+}
+.header .header_navbar .header_navbar-list li {
+    display: inline-block;
+    list-style-type: none;
+}
+@media screen {
+
+
+    /* For mobile phones: */
+    .header .header_navbar .menucenter {
+        display: none;
+    }
+    .header .header_navbar .header_navbar-list .header_navbar-item .stick {
+        display: block;
+    }
+
+    body {
+        background-color: rgb(24, 25, 26);
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For tablets: */
+
+    .header .header_navbar .menucenter {
+        display: block;
+    }
+    body {
+        background-color: rgb(24, 25, 26);
+    }
+
+}
+
+@media only screen and (min-width: 937px) {
+
+    /* For desktop: */
+    body {
+        background-color: rgb(24, 25, 26);
+    }
+}
