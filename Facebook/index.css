@@ -4,12 +4,13 @@ img {
 body {
     color: aliceblue;
 }
-.menu{
-    display: inline-block   ;
-}
-.menu .menu-list{
-    display: inline-block;
+
+.menu .menu-list .menu-item {
     list-style-type: none;
+    display: inline-block;
+}
+.menu .menu-list {
+    display: inline-block;
 }
 
 @media screen {
