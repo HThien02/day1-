@@ -1,16 +1,30 @@
 img {
     width: 100%;
 }
+
 body {
     color: aliceblue;
+}
+
+.menu {
+    background-color: rgb(58, 59, 60);
 }
 
 .menu .menu-list .menu-item {
     list-style-type: none;
     display: inline-block;
 }
+
+.menu .menu-list .menu-item-1 {
+    list-style-type: none;
+    display: inline-block;
+}
+
 .menu .menu-list {
     display: inline-block;
+}
+.container .row .Story i {
+    position: absolute;
 }
 
 @media screen {
@@ -21,6 +35,21 @@ body {
         background-color: rgb(24, 25, 26);
     }
 
+    .menu .menucenter .menu-item {
+        display: none;
+    }
+
+    .menu .menu-list .menu-item {
+        font-size: 30px
+    }
+
+    .menu .menu-list .menu-item-1 {
+        font-size: 30px
+    }
+
+    .container .row .navbaritem {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) {
