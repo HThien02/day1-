@@ -7,11 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body div .hello {
+        display: none;
+    }
+</style>
 
 <body>
     <div>
-        <button onclick="hello()">Submit</button>
-        <p id="hello"></p>
+        <button id="botton">Submit</button>
+        <p class="hello">Chúc mừng bạn đã hoàn thành ASMJV1</p>
     </div>
     <script>
         const namhientai = 2022;
@@ -20,13 +25,14 @@
         var city = prompt(' Nhập Thành phố nơi bạn sinh sống', ' ')
         var phonenumber = prompt('Nhập số điện thoại của bạn', ' ')
         var yearofbirth = prompt('Nhập năm sinh của bạn', ' ')
-        function hello() {
-            var info = "Tôi tên" + name + "sinh năm" + yearofbirth + "đến từ" + City
-            document.getElementById("hello").innerHTML = info;
-        }
         while (yearofbirth >= namhientai) {
             alert("Nhập lại năm sinh của bạn")
             yearofbirth = prompt('Nhập năm sinh của bạn', ' ')
+        }
+        button.onclick = function event() {
+            if (event.onclick) {
+                alert("123" + hello);
+            }
         }
     </script>
 </body>
